@@ -1,8 +1,109 @@
+* {
+    margin: 0;
+}
+
 #about-container {
-    width: 50%;
+    width: 100%;
+    color: $font-white;
+    font-family: 'Heebo', sans-serif;
+}
+
+.heading {
+    z-index: -1;
     margin: 0 auto;
+    width: 100%;
+    height: 450px;
+    background: url('../img/worker.jpg') no-repeat top center;
+    background-size: 65rem;
+}
+
+.seperator {
+    width: 100%;
+    height: 1px;
+    color: rgba(white, 0);
 }
 
 .title {
-    font-family: 'Heebo', sans-serif;
+    font-size: 3rem;
+    margin-top: 4rem;
+    width: 70%;
+    max-width: 450px;
+    background: rgba(darken($sonic-silver, 8%), .9);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-intro {
+    width: 93%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.intro-1 {
+    margin-top: 2rem;
+}
+
+.intro-2 {
+    margin-top: 7.9rem;
+}
+
+.about-text {
+    background: $sonic-silver;
+    
+}
+
+.services p {
+    font-size: 1.3rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.serv-back {
+    background: $green-sheen;
+}
+
+.serv-cont {
+    width: 80%;
+    height: 12rem;
+}
+
+.ppm {
+    background: url('../img/ppm.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.inv-repair {
+    background: url('../img/inv-repair.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.motor-repairs {
+    background: url('../img/motor-repairs.jpg') no-repeat center top;
+    background-size: cover;
+    margin-bottom: 10rem;
+}
+
+.serv-cont h2 {
+    background: $shiny-shamrock;
+    padding: 5px 0;
+}
+
+.serv-cont p {
+    padding: 1rem 0;
+    margin-top: 9.2rem;
+}
+
+.serv-gap {
+    margin-top: 9.9rem;
 }

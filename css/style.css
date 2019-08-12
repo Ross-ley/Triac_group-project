@@ -1,2 +1,206 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+* {
+  margin: 0;
+}
+
+#about-container {
+  width: 100%;
+  color: #eeeeee;
+  font-family: 'Heebo', sans-serif;
+}
+
+.heading {
+  z-index: -1;
+  margin: 0 auto;
+  width: 100%;
+  height: 450px;
+  background: url("../img/worker.jpg") no-repeat top center;
+  background-size: 65rem;
+}
+
+.seperator {
+  width: 100%;
+  height: 1px;
+  color: rgba(255, 255, 255, 0);
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 4rem;
+  width: 70%;
+  max-width: 450px;
+  background: rgba(99, 100, 103, 0.9);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-intro {
+  width: 93%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.intro-1 {
+  margin-top: 2rem;
+}
+
+.intro-2 {
+  margin-top: 7.9rem;
+}
+
+.about-text {
+  background: #77787c;
+}
+
+.services p {
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul div {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.serv-back {
+  background: #7bba9b;
+}
+
+.serv-cont {
+  width: 80%;
+  height: 12rem;
+}
+
+.ppm {
+  background: url("../img/ppm.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.inv-repair {
+  background: url("../img/inv-repair.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.motor-repairs {
+  background: url("../img/motor-repairs.jpg") no-repeat center top;
+  background-size: cover;
+  margin-bottom: 10rem;
+}
+
+.serv-cont h2 {
+  background: #4f9f78;
+  padding: 5px 0;
+}
+
+.serv-cont p {
+  padding: 1rem 0;
+  margin-top: 9.2rem;
+}
+
+.serv-gap {
+  margin-top: 9.9rem;
+}
+
+@media (min-width: 740px) {
+  .serv-cont p {
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 1055px) {
+  .heading {
+    background: url("../img/worker.jpg") center 30% no-repeat;
+    background-size: 100%;
+  }
+  .about-intro {
+    width: 90%;
+  }
+  .services {
+    margin: 0 auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .serv-cont {
+    width: 33%;
+  }
+  .serv-gap {
+    margin: 2rem 0;
+    margin-left: 1rem;
+  }
+  .serv-cont p {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 9.2rem;
+    padding: 0;
+    margin-bottom: 4rem;
+  }
+  .ppm p {
+    margin-top: 7rem;
+  }
+  ul div {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1167px) {
+  .about-intro {
+    text-align: left;
+    width: 90%;
+  }
+  .serv-cont p {
+    padding: 1rem 0;
+  }
+  .title {
+    margin-top: 6rem;
+    font-size: 4rem;
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1335px) {
+  .ppm p {
+    margin-top: 9.2rem;
+  }
+}
+
+@media (min-width: 1535px) {
+  .title {
+    margin-top: 6rem;
+    font-size: 5rem;
+    max-width: 700px;
+  }
+  .about-intro {
+    width: 70%;
+  }
+  .services {
+    width: 70%;
+  }
+  .serv-cont p {
+    padding: 2rem 0;
+  }
+  .ppm p {
+    margin-top: 7rem;
+  }
+  ul div {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1720px) {
+  .ppm p {
+    margin-top: 7rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
