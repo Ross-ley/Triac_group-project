@@ -154,7 +154,7 @@ ul div {
   }
 }
 
-@media (min-width: 1167px) {
+@media (min-width: 1165px) {
   .about-intro {
     text-align: left;
     width: 90%;
@@ -198,9 +198,9 @@ ul div {
   }
 }
 
-@media (min-width: 1720px) {
+@media (min-width: 1710px) {
   .ppm p {
-    margin-top: 7rem;
+    margin-top: 9.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
