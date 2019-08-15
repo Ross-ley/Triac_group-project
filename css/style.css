@@ -1,0 +1,84 @@
+
+/* Keeps small banner strip Pink */
+.pink {
+    padding: 5px;
+    background-color: #FF0080;
+}
+
+/* Keeps box background dark grey */
+.footer {
+    display: flex;
+    background-color: #2C3539;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Moves Navigation Services and Legal Text */
+
+.footer li {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+
+.footer ul {
+    padding: 0px;
+
+}
+
+
+.col-sm-1 {
+    padding: 10px;
+
+}
+
+
+
+ .design  {
+    padding: 10px;
+
+}
+
+#netmatters {
+    text-decoration: underline;
+}
+
+
+
+
+/* Keeps lighter Grey Banner text side by side */
+.copyright {
+    
+    background-color: #848482;
+    color: #fff;
+    padding: 10px;
+}
+
+#ltd {
+    padding: 10px;
+    
+
+}
+
+/* Moves banner into the middle */
+#banner {
+   text-align: center;
+    
+}
+
+
+
+
+.design {
+    text-align: right;
+  
+   
+}
+
+
+
+
+
+
+
+
