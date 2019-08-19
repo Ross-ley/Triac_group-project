@@ -1,9 +1,81 @@
-.services {
-  width: 100%;
-  height: 50px;
+.top {
+  height: 40rem;
 }
 
-img {
-  width: 50px;
+.top .background-1 {
+  background-image: url("https://www.networkpartners.com/wp-content/uploads/2017/08/Our-Services_Packaging_AdobeStock_98949854.jpg");
+  background-repeat: no-repeat;
+}
+
+.top .background-2 {
+  background-image: url("https://thumbs.dreamstime.com/z/depression-7767069.jpg");
+  background-repeat: no-repeat;
+}
+
+.top .background-3 {
+  background-image: url("https://thumbs.dreamstime.com/z/depression-7767069.jpg");
+  background-repeat: no-repeat;
+}
+
+.slick-arrow {
+  color: red;
+  background-color: pink;
+}
+
+.our-services {
+  width: 100%;
+}
+
+.our-services .card {
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.our-services .card img {
+  height: 300px;
+}
+
+.our-services .card-body {
+  background-color: #7bba9b;
+}
+
+.small-img {
+  overflow: hidden;
+}
+
+.small-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+
+.small-img ul {
+  list-style-type: none;
+}
+
+.small-img .card-head {
+  background-color: #2e8457;
+}
+
+.small-img .card-head img {
+  width: 100%;
+}
+
+.small-img .card-body {
+  text-align: center;
+  background-color: #7bba9b;
+}
+
+.small-img .card-body ul {
+  padding-left: 0;
+}
+
+.btn {
+  background-color: #4f9f78;
+}
+
+.abb {
+  background-color: #77787c;
 }
 /*# sourceMappingURL=home.css.map */
