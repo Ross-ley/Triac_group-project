@@ -1,26 +1,80 @@
 @import "var/variables.scss";
+.btn{
+    background-color: $btn;
+    color: white;
+    &-space{
+        margin: 20px;
+    }
+    &:hover{
+        color:white; 
+    }
+}
+
 .top{
     height: 40rem;
+    position: relative;
+    
     .background-1{
-        background-image: url("https://www.networkpartners.com/wp-content/uploads/2017/08/Our-Services_Packaging_AdobeStock_98949854.jpg");
+        background-image: url("https://placeimg.com/1900/700/tech");
         background-repeat: no-repeat;
+        a{
+            p{
+                padding-top: 15px;
+            }
+        }
     }
     .background-2{
-        background-image: url("https://thumbs.dreamstime.com/z/depression-7767069.jpg");
+        background-image: url("https://placeimg.com/1900/700/tech");
         background-repeat: no-repeat;
+        a{
+            p{
+                padding-top: 15px;
+            }
+        }
     }
     .background-3{
-        background-image: url("https://thumbs.dreamstime.com/z/depression-7767069.jpg");
+        background-image: url("https://placeimg.com/1900/700/tech");
         background-repeat: no-repeat;
+        a{
+            p{
+                padding-top: 15px;
+            }
+        }
     }
-
+    .mid-cover{
+        position: relative;
+        left: 34%;
+        top: 25%;
+        width: 40rem;
+        height: 20rem;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        text-align: center;
+        h5{
+            padding-bottom: 1rem;
+        }
+        h2{
+            padding-bottom: 1rem;
+        }
+        .btn{
+            width: 12rem;
+            height: 4.5rem;
+            color: white;
+        }
+        .space{
+            padding-top: 3rem;
+        }
+    }
 }
-.slick-arrow{
-    color: red;
-    background-color: pink;
+//services cards
+.Services{
+    text-align: center;
+    h3{
+        a{
+            color: black;
+        }
+    }
 }
-
-
 .our-services {
     width: 100%;
     .card{
@@ -30,13 +84,36 @@
         img{
             height: 300px;
         }
+        &:hover{
+            .hide{
+                display: block;
+            }
+            img{
+                height: 0px;
+            }
+            .card-body {
+                height: 420px;
+            }
+        }
     }
     .card-body{
         background-color: $cardBody;
+        text-align: center;
+    }
+    .space-between{
+        margin: 20px 0 20 20px;
+    }
+    .hide{
+        display:none;
     }
 }
+//cards under banner
 .small-img{
     overflow: hidden;
+    color: white;
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
     img{
         object-fit: cover;
         height: 200px;
@@ -46,8 +123,13 @@
     }
     .card-head{
         background-color: $cardHeader;
+        text-align: center;
+        height: 10rem;
         img{
             width: 100%;
+        }
+        h3{
+            padding-top: 2.5rem;
         }
     }
     .card-body{
@@ -56,11 +138,28 @@
         ul {
             padding-left: 0;
         }
+        .max-input{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 20px; 
+        }
+        li{
+            a{
+                color: white;
+                &[placeholder="Email Address*"]{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        p{
+            margin-bottom: 5px;  
+        }
     }   
 }
-.btn{
-    background-color: $btn;
-}
+
+//banner
 .abb{
-    background-color: $ABBBanner
+    height: 15rem;
+    background-color: $ABBBanner;
+    margin-bottom: 50px;
 }

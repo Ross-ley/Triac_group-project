@@ -1,121 +1,204 @@
 <?php include("inc/header.php")?>
-    <div class="container">
-        <!-- carousel -->
-        <div class="top">
-            <div class="background-1"></div>
-            <div class="background-2"></div>
-            <div class="background-3"></div>
+    <!-- carousel -->
+    <div class="top">
+        <div class="background-1">
+            <div class="mid-cover">
+                <div class="space">
+                    <h2>TASC DRIVE SYSTEMS</h2>
+                    <h5>ABB STOCKIST - STOCK AND SUPPLY</h5>
+                    <h5>FULL MAINTENANCE CONTRACTS</h5>
+                    <a href="#" class="btn"><p>Read More</p></a>
+                </div>
+            </div>
         </div>
-        <!-- end of carousel -->
+        <div class="background-2">
+            <div class="mid-cover">
+            <div class="space">
+                    <h2>TASC DRIVE SYSTEMS</h2>
+                    <h5>ABB STOCKIST - STOCK AND SUPPLY</h5>
+                    <h5>FULL MAINTENANCE CONTRACTS</h5>
+                    <a href="#" class="btn"><p>Read More</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="background-3">
+            <div class="mid-cover">
+            <div class="space">
+                    <h2>TASC DRIVE SYSTEMS</h2>
+                    <h5>ABB STOCKIST - STOCK AND SUPPLY</h5>
+                    <h5>FULL MAINTENANCE CONTRACTS</h5>
+                    <a href="#" class="btn"><p>Read More</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of carousel -->
+    <div class="container">
         <div class="our-services">
             <div class="row">
                 <h3 class="services col-md-12">
                     Our Services
                 </h3>
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                        <p>text</p>
+                        <h5>PLANNED PREVENTATIVE MAINTENANCE</h5>
+                        <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                        <p>text</p>
+                        <h5>INVERTER REPAIRS</h5>
+                        <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div>      
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                        <p>text</p>
+                        <h5>MOTOR REPAIRS</h5>
+                        <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div> 
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                    <p>text</p>
+                    <h5>APPLICATION INSTALL</h5>
+                    <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="our-services">
             <div class="row">
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                        <p>text</p>
+                        <h5>CONTROL PANELS</h5>
+                        <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                        <p>text</p>
+                        <h5>ABB INVERTER SALES</h5>
+                        <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div>      
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                        <p>text</p>
+                        <h5>CASE STUDIES</h5>
+                        <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div> 
-                <div class="col-md-3 card">
+                <div class="col card space-between">
                     <div class="card-head">
-                        <img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt="N/A">
+                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
-                    <p>text</p>
+                        <h5>EMERGENCY 'AMBLUANCE' INVETERS</h5>
+                        <div class="hide">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-12">
-            <p class="Services">View Services</p>
+        <div class="col-sm-12 Services">
+            <h3>
+                <a href="">View Services</a>
+            </h3>
         </div>
     </div>
     <div class="ABB">
         <div class="container">
-            <h3>About ABB</h3>
-            <h3>Intrerters & Us</h3>
-            <a href="" class="btn">Read More</a>
-            <div>
-                <p>text</p>
+            <div class="col">
+                <div>
+                    <h3>About ABB</h3>
+                    <h3>Intrerters & Us</h3> 
+                </div>
+                <div>
+                    <a href="#" class="btn">Read More</a>
+                </div>
             </div>
         </div>
     </div>
     <div class="container">
         <span class="row">
-            <div class="card col-md-4 small-img">
-                <div class="card-head"><img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt=""></div>
+            <div class="card col small-img">
+                <div class="card-head"><img src="https://placeimg.com/640/480/tech" alt=""></div>
                 <div class="card-body">
                     <h4 class="card-title">Why choose us?</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet mi nec massa luctus pretium ac at lectus. Vivamus eget nulla ligula. Phasellus eget odio mattis, hendrerit turpis et, placerat erat. Phasellus consectetur, justo nec dapibus sodales, magna mauris iaculis felis, et rutrum orci enim ut magna. Duis faucibus hendrerit </p>
-                    <a href="" class="btn">Read more</a>
+                    <a href="#" class="btn btn-space">Read more</a>
                 </div>
             </div>
-            <div class="card col-md-4 small-img contact-form">
+            <div class="card col small-img contact-form">
                 <div class="card-head">
-                    this is just a place holder
+                    <h3>BOOK A SERVICE VISIT</h3>
+                    <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit.</p>
                 </div>
                 <div class="card-body">
-                    text
+                    <input type="text" placeholder="Full Name*" class="max-input">
+                    <input type="text" placeholder="Telephone Number*" class="max-input">
+                    <input type="text" placeholder="Email Address*" class="max-input">
+                    <br>
+                    <div>
+                        <p>
+                            <input type="checkbox">
+                            <small> 
+                                I have read and accepted the Privacy Policy*
+                            </small>
+                        </p>
+                        <p>
+                            <input type="checkbox">
+                            <small>
+                                 I accept that my information may be used for marketing purposes
+                            </small>
+                        </p>
+                        <a href="#" class="btn btn-space">Read More</a>
+                    </div>
                 </div>
             </div>
-            <div class="card col-md-4 small-img">
-                <div class="card-head"><img src="https://thumbs.dreamstime.com/z/depression-7767069.jpg" alt=""></div>
+            <div class="card col small-img">
+                <div class="card-head"><img src="https://placeimg.com/640/480/tech" alt=""></div>
                 <div class="card-body">
                 <h4 class="card-title">Contact us</h4>
                     <ul>
