@@ -1,0 +1,150 @@
+/* Global Mobile First--------------------------- */
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: .8em;
+  padding: 1em;
+}
+
+.ourserv {
+  padding: 1em 4em 1em;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: .8em;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: .6;
+}
+
+h3 {
+  margin-bottom: -40px;
+  text-decoration: underline;
+}
+
+/* Images--------------------------- */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Overlay & Transitions--------------------------- */
+.wrapper {
+  position: relative;
+  height: 150px;
+  margin: 2em 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.photo_content {
+  white-space: nowrap;
+  background-color: black;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #fff;
+  top: 45%;
+  left: 50%;
+  font-size: 60px;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+}
+
+.photo_content span {
+  font-size: 24px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #4f9f78;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  overflow: hidden;
+  z-index: 999;
+  text-shadow: 2px 0px 4px black;
+}
+
+.wrapper:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+/* Service Grid--------------------------- */
+.service_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Box Images--------------------------- */
+.box_t {
+  background: rgba(79, 161, 121, 0.53);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  height: 15px;
+  color: #fff;
+  text-align: center;
+  padding-top: 1em;
+  margin-top: 1em;
+  text-shadow: 2px 0px 4px black;
+  font-size: .8em;
+  padding-bottom: 1.5em;
+}
+
+/* Media Queries--------------------------- */
+@media (min-width: 560px) {
+  .box_t {
+    font-size: .8em;
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
+  .wrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .ourserv {
+    padding: 1em 8em 1em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
