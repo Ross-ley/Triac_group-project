@@ -39,51 +39,51 @@
                 <h3 class="services col-md-12">
                     Our Services
                 </h3>
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                         <h5>PLANNED PREVENTATIVE MAINTENANCE</h5>
                         <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                         <h5>INVERTER REPAIRS</h5>
                         <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>      
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                         <h5>MOTOR REPAIRS</h5>
                         <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div> 
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                     <h5>APPLICATION INSTALL</h5>
                     <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -91,51 +91,51 @@
         </div>
         <div class="our-services">
             <div class="row">
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                         <h5>CONTROL PANELS</h5>
                         <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                         <h5>ABB INVERTER SALES</h5>
                         <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>      
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                         <h5>CASE STUDIES</h5>
                         <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div> 
-                <div class="col card space-between">
+                <div class="card space-between col-sm-12 col-md-5 col-lg">
                     <div class="card-head">
-                        <img src="https://placeimg.com/640/480/tech" alt="N/A">
+                        <img src="https://placeimg.com/900/480/tech" alt="N/A">
                     </div>
                     <div class="card-body">
                         <h5>EMERGENCY 'AMBLUANCE' INVETERS</h5>
                         <div class="hide">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="">Read more</a>
+                            <a href="" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -148,29 +148,48 @@
         </div>
     </div>
     <div class="ABB">
-        <div class="container">
-            <div class="col">
-                <div>
-                    <h3>About ABB</h3>
-                    <h3>Intrerters & Us</h3> 
+        <div class="container space">
+            <div class="row">
+                <div class="col-md-3">
+                    <div>
+                        <h3>About ABB</h3>
+                        <h3>Intrerters & Us</h3> 
+                    </div>
+                    <div class="pad">
+                        <a href="#" class="btn">
+                            <p>
+                                Read More
+                            </p>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a href="#" class="btn">Read More</a>
+                <div class="col-md-9">
+                    <div class="info">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus tempor tellus id porta. Pellentesque maximus viverra iaculis. Maecenas accumsan, risus sit amet maximus ornare, massa nisi interdum dolor.
+                        </p>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus tempor tellus id porta. Pellentesque maximus viverra iaculis. Maecenas accumsan, risus sit amet maximus ornare, massa nisi interdum dolor.
+                        </p>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus tempor tellus id porta. Pellentesque maximus viverra iaculis. Maecenas accumsan, risus sit amet maximus ornare, massa nisi interdum dolor.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <span class="row">
-            <div class="card col small-img">
-                <div class="card-head"><img src="https://placeimg.com/640/480/tech" alt=""></div>
+            <div class="card col-md-5 small-img small-img-1 col-lg">
+                <div class="card-head"><img src="https://placeimg.com/900/480/tech" alt=""></div>
                 <div class="card-body">
                     <h4 class="card-title">Why choose us?</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet mi nec massa luctus pretium ac at lectus. Vivamus eget nulla ligula. Phasellus eget odio mattis, hendrerit turpis et, placerat erat. Phasellus consectetur, justo nec dapibus sodales, magna mauris iaculis felis, et rutrum orci enim ut magna. Duis faucibus hendrerit </p>
                     <a href="#" class="btn btn-space">Read more</a>
                 </div>
             </div>
-            <div class="card col small-img contact-form">
+            <div class="card col-md-6 small-img contact-form col-lg">
                 <div class="card-head">
                     <h3>BOOK A SERVICE VISIT</h3>
                     <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit.</p>
@@ -197,8 +216,8 @@
                     </div>
                 </div>
             </div>
-            <div class="card col small-img">
-                <div class="card-head"><img src="https://placeimg.com/640/480/tech" alt=""></div>
+            <div class="card col-md-12 small-img col-lg">
+                <div class="card-head"><img src="https://placeimg.com/900/480/tech" alt=""></div>
                 <div class="card-body">
                 <h4 class="card-title">Contact us</h4>
                     <ul>

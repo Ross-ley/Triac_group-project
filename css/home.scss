@@ -1,4 +1,5 @@
-@import "var/variables.scss";
+@import "var/variables.scss",
+        "mixin/mixin.scss";
 .btn{
     background-color: $btn;
     color: white;
@@ -20,6 +21,12 @@
         a{
             p{
                 padding-top: 15px;
+                @include Extra-small{
+                    padding-top: 0px;
+                }
+                @include Small{
+                    padding-top: 0px;
+                }
             }
         }
     }
@@ -29,6 +36,12 @@
         a{
             p{
                 padding-top: 15px;
+                @include Extra-small{
+                    padding-top: 0px;
+                }
+                @include Small{
+                    padding-top: 0px;
+                }
             }
         }
     }
@@ -38,18 +51,48 @@
         a{
             p{
                 padding-top: 15px;
+                @include Extra-small{
+                    padding-top: 0px;
+                }
+                @include Small{
+                    padding-top: 0px;
+                }
             }
         }
     }
+    .slick-dots{
+        margin-bottom: 3rem;
+        // color: white;
+        li.slick-active{
+            button{
+                border-radius: 50%;
+                background-color: white;
+                &::before{
+                    color: white;
+                }
+            }
+        }
+        button{
+            border: 3px solid white;
+            border-radius: 20rem;
+            &::before{
+                opacity: 0;
+            }
+            &:hover{
+                &::before{
+                    opacity: 0;
+                }
+                background-color: $btn;
+            }
+        }
+        
+    }
     .mid-cover{
         position: relative;
-        left: 34%;
-        top: 25%;
-        width: 40rem;
-        height: 20rem;
         background-color: rgba(0,0,0,0.5);
         color: white;
         text-align: center;
+        margin: auto;
         h5{
             padding-bottom: 1rem;
         }
@@ -64,8 +107,72 @@
         .space{
             padding-top: 3rem;
         }
+        @include three-twenty{
+            top: 20%;
+            width: 20rem;
+            height: 20rem;
+        }
+        @include Extra-small{
+            top: 20%;
+            width: 20rem;
+            height: 20rem;
+            .btn{
+                width: 5rem;
+                height: 4rem;
+            }
+            .space{
+                padding-top: 0;
+            }
+        }
+        @include Small{
+            top: 20%;
+            width: 30rem;
+            height: 20rem;
+            .btn{
+                width: 5rem;
+                height: 4rem;
+            }
+        }
+        @include Medium{
+            top: 25%;
+            width: 40rem;
+            height: 20rem;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            text-align: center;
+            .btn{
+                width: 12rem;
+                height: 4.5rem;
+            }
+            .space{
+                padding-top: 3rem;
+            }
+        }
+        @include Large{
+            top: 25%;
+            width: 40rem;
+            height: 20rem;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            text-align: center;
+            h5{
+                padding-bottom: 1rem;
+            }
+            h2{
+                padding-bottom: 1rem;
+            }
+            .btn{
+                width: 12rem;
+                height: 4.5rem;
+                color: white;
+            }
+            .space{
+                padding-top: 3rem;
+            }
+        }
     }
 }
+
 //services cards
 .Services{
     text-align: center;
@@ -101,7 +208,11 @@
         text-align: center;
     }
     .space-between{
-        margin: 20px 0 20 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        @include Small{
+            margin-right: 20px;
+        }
     }
     .hide{
         display:none;
@@ -114,6 +225,20 @@
     padding: 0;
     margin-left: 15px;
     margin-right: 15px;
+    @include Extra-small {
+        margin-bottom: 20px;
+    }
+    @include Small {
+        margin-bottom: 20px;
+    }
+    @include Medium {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom:10px; 
+        &-1{
+            margin-left: 2rem;
+        }
+    }
     img{
         object-fit: cover;
         height: 200px;
@@ -122,6 +247,7 @@
         list-style-type: none;
     }
     .card-head{
+        padding-bottom: 20px;
         background-color: $cardHeader;
         text-align: center;
         height: 10rem;
@@ -133,6 +259,7 @@
         }
     }
     .card-body{
+        padding-top:42px;
         text-align: center;
         background-color: $cardBody;
         ul {
@@ -160,6 +287,89 @@
 //banner
 .abb{
     height: 15rem;
-    background-color: $ABBBanner;
     margin-bottom: 50px;
+    background-image: linear-gradient(to right, $ABBBanner 60%, rgba(119, 120, 124, 0.8)) ,url("https://placeimg.com/700/700/tech");
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+    .space{
+        padding-top: 1.5rem;
+    }
+    .pad{
+        padding-top: 20px;
+        a{
+            width: 11rem;
+            height: 4rem;
+            p{
+                padding-top: 0.7rem;
+            }
+        }
+    }
+    @include Extra-small{
+        height: 30rem;
+        text-align: center;
+        .info{
+            display: block;
+            p:nth-child(3){
+                display: none;
+            }
+        }
+        h3{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .pad{
+            padding-top: 10px;
+            a{
+                width: 7rem;
+                height: 3rem;
+                p{
+                    padding-top: 0.3rem;
+                }
+            }
+        }
+    }
+    @include Small{
+        height: 20rem;
+        text-align: center;
+        .info{
+            display: block;
+            p:nth-child(3){
+                display: none;
+            }
+        }
+        h3{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .pad{
+            padding-top: 10px;
+            a{
+                width: 7rem;
+                height: 3rem;
+                p{
+                    padding-top: 0.3rem;
+                }
+            }
+        }
+    }
+    @include Medium{
+        height: 15rem;
+        text-align: start;
+        .info{
+            p:nth-child(3){
+                display: block;
+            }
+        }
+        h3{
+            text-align: start;
+        }
+    }
+    @include Large{
+        .info{
+            p:nth-child(3){
+                display: block;
+            }
+        }
+    }
 }

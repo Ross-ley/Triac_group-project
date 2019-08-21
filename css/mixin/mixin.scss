@@ -1,0 +1,18 @@
+@mixin three-twenty {
+    @media (min-width: 320px) { @content; }
+}
+@mixin Extra-small {
+    @media (max-width: 576px) { @content; }
+}
+@mixin Small {
+    @media (min-width: 576px) { @content; }
+}
+@mixin Medium {
+    @media (min-width: 768px) { @content; }
+}
+@mixin Large {
+    @media (min-width: 992px) { @content; }
+}
+@mixin Extra-large {
+    @media (min-width: 1200px) { @content; }
+}

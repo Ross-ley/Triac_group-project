@@ -25,6 +25,18 @@
   padding-top: 15px;
 }
 
+@media (max-width: 576px) {
+  .top .background-1 a p {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .top .background-1 a p {
+    padding-top: 0px;
+  }
+}
+
 .top .background-2 {
   background-image: url("https://placeimg.com/1900/700/tech");
   background-repeat: no-repeat;
@@ -32,6 +44,18 @@
 
 .top .background-2 a p {
   padding-top: 15px;
+}
+
+@media (max-width: 576px) {
+  .top .background-2 a p {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .top .background-2 a p {
+    padding-top: 0px;
+  }
 }
 
 .top .background-3 {
@@ -43,15 +67,54 @@
   padding-top: 15px;
 }
 
+@media (max-width: 576px) {
+  .top .background-3 a p {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .top .background-3 a p {
+    padding-top: 0px;
+  }
+}
+
+.top .slick-dots {
+  margin-bottom: 3rem;
+}
+
+.top .slick-dots li.slick-active button {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.top .slick-dots li.slick-active button::before {
+  color: white;
+}
+
+.top .slick-dots button {
+  border: 3px solid white;
+  border-radius: 20rem;
+}
+
+.top .slick-dots button::before {
+  opacity: 0;
+}
+
+.top .slick-dots button:hover {
+  background-color: #7bba9b;
+}
+
+.top .slick-dots button:hover::before {
+  opacity: 0;
+}
+
 .top .mid-cover {
   position: relative;
-  left: 34%;
-  top: 25%;
-  width: 40rem;
-  height: 20rem;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   text-align: center;
+  margin: auto;
 }
 
 .top .mid-cover h5 {
@@ -70,6 +133,84 @@
 
 .top .mid-cover .space {
   padding-top: 3rem;
+}
+
+@media (min-width: 320px) {
+  .top .mid-cover {
+    top: 20%;
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .top .mid-cover {
+    top: 20%;
+    width: 20rem;
+    height: 20rem;
+  }
+  .top .mid-cover .btn {
+    width: 5rem;
+    height: 4rem;
+  }
+  .top .mid-cover .space {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .top .mid-cover {
+    top: 20%;
+    width: 30rem;
+    height: 20rem;
+  }
+  .top .mid-cover .btn {
+    width: 5rem;
+    height: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .top .mid-cover {
+    top: 25%;
+    width: 40rem;
+    height: 20rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+  }
+  .top .mid-cover .btn {
+    width: 12rem;
+    height: 4.5rem;
+  }
+  .top .mid-cover .space {
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .top .mid-cover {
+    top: 25%;
+    width: 40rem;
+    height: 20rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+  }
+  .top .mid-cover h5 {
+    padding-bottom: 1rem;
+  }
+  .top .mid-cover h2 {
+    padding-bottom: 1rem;
+  }
+  .top .mid-cover .btn {
+    width: 12rem;
+    height: 4.5rem;
+    color: white;
+  }
+  .top .mid-cover .space {
+    padding-top: 3rem;
+  }
 }
 
 .Services {
@@ -112,7 +253,14 @@
 }
 
 .our-services .space-between {
-  margin: 20px 0 20 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .our-services .space-between {
+    margin-right: 20px;
+  }
 }
 
 .our-services .hide {
@@ -127,6 +275,29 @@
   margin-right: 15px;
 }
 
+@media (max-width: 576px) {
+  .small-img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .small-img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .small-img {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  .small-img-1 {
+    margin-left: 2rem;
+  }
+}
+
 .small-img img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -138,6 +309,7 @@
 }
 
 .small-img .card-head {
+  padding-bottom: 20px;
   background-color: #2e8457;
   text-align: center;
   height: 10rem;
@@ -152,6 +324,7 @@
 }
 
 .small-img .card-body {
+  padding-top: 42px;
   text-align: center;
   background-color: #4f9f78;
 }
@@ -180,7 +353,101 @@
 
 .abb {
   height: 15rem;
-  background-color: #77787c;
   margin-bottom: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, #77787c), to(rgba(119, 120, 124, 0.8))), url("https://placeimg.com/700/700/tech");
+  background-image: linear-gradient(to right, #77787c 60%, rgba(119, 120, 124, 0.8)), url("https://placeimg.com/700/700/tech");
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.abb .space {
+  padding-top: 1.5rem;
+}
+
+.abb .pad {
+  padding-top: 20px;
+}
+
+.abb .pad a {
+  width: 11rem;
+  height: 4rem;
+}
+
+.abb .pad a p {
+  padding-top: 0.7rem;
+}
+
+@media (max-width: 576px) {
+  .abb {
+    height: 30rem;
+    text-align: center;
+  }
+  .abb .info {
+    display: block;
+  }
+  .abb .info p:nth-child(3) {
+    display: none;
+  }
+  .abb h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .abb .pad {
+    padding-top: 10px;
+  }
+  .abb .pad a {
+    width: 7rem;
+    height: 3rem;
+  }
+  .abb .pad a p {
+    padding-top: 0.3rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .abb {
+    height: 20rem;
+    text-align: center;
+  }
+  .abb .info {
+    display: block;
+  }
+  .abb .info p:nth-child(3) {
+    display: none;
+  }
+  .abb h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .abb .pad {
+    padding-top: 10px;
+  }
+  .abb .pad a {
+    width: 7rem;
+    height: 3rem;
+  }
+  .abb .pad a p {
+    padding-top: 0.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .abb {
+    height: 15rem;
+    text-align: start;
+  }
+  .abb .info p:nth-child(3) {
+    display: block;
+  }
+  .abb h3 {
+    text-align: start;
+  }
+}
+
+@media (min-width: 992px) {
+  .abb .info p:nth-child(3) {
+    display: block;
+  }
 }
 /*# sourceMappingURL=home.css.map */
