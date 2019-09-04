@@ -1,0 +1,43 @@
+/*this is the stylesheet for the "inverters" page for the TRIAC project*/
+.jumbotron {
+  background-color: #77787c;
+  color: azure;
+}
+
+.card-head {
+  overflow: hidden;
+  border: none;
+  margin-top: 15px;
+}
+
+.card-body {
+  background-color: #4f9f78;
+  color: azure;
+  border: none;
+}
+
+.card-footer {
+  background-color: #4f9f78;
+  border-top: 0px solid black;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #7bba9b;
+}
+
+.btn:hover {
+  background-color: #2e8457;
+}
+
+.inverters .row {
+  height: 600px;
+}
+
+.inverters .card {
+  height: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: none;
+}
+/*# sourceMappingURL=inverters.css.map */
